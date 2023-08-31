@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Calculator</title>
+</head>
+<body>
+  <h1>Expense Calculator</h1>
+  <form action="/calculate" method="post">
+    <label for="income">Income:</label>
+    <input type="number" name="income" id="income">
+    <label for="expenses">Expenses:</label>
+    <input type="number" name="expenses" id="expenses">
+    <button type="submit">Calculate</button>
+  </form>
+  <p>The result will be displayed here:</p>
+  <p id="result"></p>
+</body>
+</html>
